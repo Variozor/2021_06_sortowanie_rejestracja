@@ -1,0 +1,27 @@
+DOKUMENTACJA EGZAMINU INF.04 - 2021
+Autor: Damian Szleja
+
+NARZĘDZIA
+System przygotowania i testów: Ubuntu 24.04.3 LTS.
+Środowisko pracy: edycja plików źródłowych i terminal Bash; kompilator OpenJDK 17.0.20.
+Języki: Java, C# i XAML (XML).
+Biblioteka interfejsu: .NET MAUI dla aplikacji mobilnej.
+
+WERYFIKACJA
+Konsola: skompilowana w Java 17 i uruchomiona; testy zakończone poprawnie.
+Mobilna: projekt .NET MAUI, C# i XAML. Sprawdzono składnię XML. Próba użycia dotnet zakończyła się komunikatem command not found. Brak .NET SDK, Android SDK i emulatora uniemożliwia kompilację oraz emulację w tym środowisku. Nie dołączono pliku APK.
+Emulator użyty: brak. Do uruchomienia: emulator Android w Visual Studio lub własny telefon.
+
+DOKUMENTACJA METOD
+sortuj() - sortuje pole liczby malejąco przez wybieranie; zwraca void.
+szukajMaksimum(poczatek) - zwraca indeks największej liczby od wskazanego indeksu do końca tablicy. Metoda prywatna.
+Autor metod: Damian Szleja.
+
+TESTY INTERFEJSU DO WYKONANIA NA KOMPUTERZE Z ODPOWIEDNIM ŚRODOWISKIEM
+Mobilna: po uruchomieniu widoczny autor Damian Szleja. E-mail bez @ daje komunikat o błędnym adresie. Różne hasła dają komunikat o różnicy. Zgodne hasła i e-mail ze znakiem @ dają powitanie. Hasła są ukryte.
+
+USTALENIA
+Na życzenie pominięto zdjęcia i zrzuty ekranu. Kod nie zawiera komentarzy; opis metod umieszczono w tym dokumencie zamiast w komentarzach wymaganych przez arkusz. Dane autora i nazwy folderów zawierają Damian Szleja zamiast numeru PESEL. Nie przypisano autorowi żadnego numeru identyfikacyjnego. Nie nagrano fizycznego nośnika.
+
+URUCHOMIENIE
+Instrukcje są dołączone do poszczególnych aplikacji. Projekty mobilne z 2026 r. należy wypakować z mobilna.zip przed otwarciem pliku csproj. Skopiowane pliki źródłowe obok archiwum są kopiami do oceny, a pełny projekt znajduje się w archiwum.

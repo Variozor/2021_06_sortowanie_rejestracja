@@ -1,0 +1,15 @@
+Autor: Damian Szleja
+Projekt aplikacji mobilnej .NET MAUI, C# i XAML. Android Studio nie jest potrzebne.
+
+Otwórz Rejestracja.csproj w Visual Studio z obsługą .NET MAUI i .NET 10.
+Zainstaluj składniki Android SDK oraz emulator z instalatora Visual Studio.
+Wybierz emulator Android albo podłączony telefon i uruchom projekt.
+Można również użyć VS Code z rozszerzeniem .NET MAUI.
+
+Budowanie w terminalu z zainstalowanym .NET 10, workload maui-android i Android SDK:
+dotnet build Rejestracja.csproj -f net10.0-android
+Uruchomienie na działającym emulatorze lub podłączonym telefonie:
+dotnet build Rejestracja.csproj -t:Run -f net10.0-android
+
+W środowisku przygotowania nie ma .NET SDK ani emulatora Android.
+Projekt nie został tutaj skompilowany ani uruchomiony na urządzeniu.
